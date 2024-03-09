@@ -1,0 +1,1 @@
+DELETE FROM transacciones WHERE hora BETWEEN '14:00:00' AND '18:00:00' AND fecha LIKE '2024-08-%';
