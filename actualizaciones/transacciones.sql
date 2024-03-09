@@ -1,0 +1,1 @@
+UPDATE transacciones SET tipo = 'T' WHERE monto > MONEY(100) AND monto < MONEY(500) AND fecha LIKE '%-09-%' AND hora BETWEEN '14:00:00' AND '20:00:00';
