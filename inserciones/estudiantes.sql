@@ -6,4 +6,6 @@ INSERT INTO estudiantes (cedula, nombre, apellido, email, fecha_nacimiento) VALU
 ('5678901234', 'Pedro', 'Rodríguez', 'pedro@example.com', '1998-05-05'),
 ('6789012345', 'Laura', 'Sánchez', 'laura@example.com', '2003-06-06'),
 ('7890123456', 'Sergio', 'Díaz', 'sergio@example.com', '1997-07-07'),
-('8901234567', 'Elena', 'Fernández', 'elena@example.com', '2004-08-08');
+('8901234567', 'Elena', 'Fernández', 'elena@example.com', '2004-08-08'),
+('9012345678', 'Santiago', 'Peralta', 'santiago@example.com', '2004-06-07'),
+('0123456789', 'Luis', 'Hernández', 'luis@example.com', '1998-04-03');

@@ -4,5 +4,7 @@ CREATE TABLE estudiantes (
     apellido VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
     fecha_nacimiento DATE NOT NULL,
-    CONSTRAINT pk_estudiantes PRIMARY KEY (cedula)
+	codigo_profesor INT,
+    CONSTRAINT pk_estudiantes PRIMARY KEY (cedula),
+	CONSTRAINT fk_codigo FOREIGN KEY (codigo_profesor) REFERENCES profesores(codigo)
 );
